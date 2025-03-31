@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">وفرنا</string>
+    <string name="todo">TODO</string>
+    <string name="phone_number">رقم الهاتف:</string>
+    <string name="password">كلمة المرور:</string>
+    <string name="hint_phone">**********5687</string>
+    <string name="loginText">دخول</string>
+    <string name="pass_hint">******</string>
+    <string name="create_account">انشاء حساب</string>
+    <string name="forgot_password">لقد نسيت كلمة السر؟</string>
+    <string name="signup">تسجيل الدخول</string>
+    <string name="name_hint">حامد ، منصور ، محمد</string>
+    <string name="full_name">الاسم كامل :</string>
+    <string name="confirm_password">تأكيد كلمة المرور :</string>
+    <string name="restart_pass_title">اعادة تعيين كلمة المرور ؟</string>
+    <string name="enter_password">من فضلك ادخل رقم الهاتف !</string>
+    <string name="next">التالي</string>
+    <string name="new_password">كلمه المرور جديدة:</string>
+    <string name="password_title">تعيين كلمة مرور</string>
+    <string name="text">يجب عليك اختيار كلمه مرور صعبة حتى لا يتمكن احد من تخمينها</string>
+    <string name="confirm_phone">تحقق من رقم الهاتف!</string>
+    <string name="phone_enter">ادخل الكود المرسل الى رقم الهاتف :</string>
+    <string name="phone_number_text">6575768*****</string>
+    <string name="verify_now">يتم التحقق</string>
+    <string name="recent">اعادة الارسال</string>
+    <string name="notification_icon">Notification Icon</string>
+    <string name="notification_text">لقد تم الانتهاء من طلب رقم 068031 يرجى تقييم الخدمة</string>
+    <string name="change">تغيير</string>
+</resources>

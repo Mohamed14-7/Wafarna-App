@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    >
+    <!--  Grey Background  -->
+    <!--  Top Bar  -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_layout">
+
+        <ImageView
+            android:id="@+id/home_page_logo"
+            android:layout_width="112dp"
+            android:layout_height="100dp"
+            android:src="@drawable/small"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="0dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/main_word"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="طلبات إنتظار"
+            android:textColor="#353030"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/chevron_right"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:tint="#ADFF0000"
+            tools:ignore="ContentDescription,UseAppTint" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="fill_horizontal"
+        android:text="اسم السلعة :"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/border"
+        android:gravity="right"
+        android:hint="بلوزة ، مكتب ، مكيف"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="#A49E9E"
+        tools:ignore="RtlHardcoded,TextFields" />
+
+    <TextView
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="fill_horizontal"
+        android:text="اسم السلعة :"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/product_type"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/border"
+        android:gravity="right"
+        android:hint="ملابس"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="#A49E9E"
+        tools:ignore="RtlHardcoded,TextFields" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="start"
+        android:paddingHorizontal="10dp"
+        android:text="مدة الانتظار :"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingVertical="20dp">
+
+        <ImageButton
+            android:id="@+id/remove"
+            android:layout_width="84dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/button_shape"
+            android:contentDescription="TODO"
+            android:scaleType="fitCenter"
+            android:src="@drawable/remove"
+            android:tint="@color/white"
+            tools:ignore="UseAppTint" />
+
+        <Button
+            android:id="@+id/result"
+            android:layout_width="133dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/button_shape"
+            android:contentDescription="TODO"
+            android:scaleType="fitCenter"
+            android:text="3 : يوم"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="UseAppTint" />
+
+        <ImageButton
+            android:id="@+id/add"
+            android:layout_width="84dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/button_shape"
+            android:contentDescription="TODO"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add"
+            android:tint="@color/white"
+            tools:ignore="UseAppTint" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_request"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_shape"
+        android:gravity="center"
+        android:text="قدم طلب"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+</LinearLayout>
