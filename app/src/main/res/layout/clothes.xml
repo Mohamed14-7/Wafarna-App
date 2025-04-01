@@ -153,7 +153,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/add_icon"
+                    android:src="@drawable/location"
                     android:tint="@color/red"
                     tools:ignore="UseAppTint" />
 
@@ -247,7 +247,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/add_icon"
+                    android:src="@drawable/location"
                     android:tint="@color/red"
                     tools:ignore="UseAppTint" />
 
@@ -342,7 +342,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/add_icon"
+                    android:src="@drawable/location"
                     android:tint="@color/red"
                     tools:ignore="UseAppTint" />
 
@@ -433,7 +433,7 @@
                     android:layout_height="30dp"
                     android:src="@drawable/person_icon"
                     android:tint="@color/black"
-                    tools:ignore="ContentDescription" />
+                    tools:ignore="ContentDescription,UseAppTint" />
 
                 <TextView
                     android:id="@+id/person_text"

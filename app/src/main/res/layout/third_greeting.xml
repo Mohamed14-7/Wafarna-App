@@ -25,6 +25,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:backgroundTint="@color/red"
+        android:background="@drawable/roundstyle"
         android:fontFamily="sans-serif"
         android:gravity="center"
         android:text="تسجيل الدخول"
@@ -33,13 +34,13 @@
         tools:ignore="HardcodedText" />
 
     <Button
-
         android:id="@+id/btn_regs"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:backgroundTint="@color/red"
+        android:background="@drawable/roundstyle"
         android:fontFamily="sans-serif"
         android:gravity="center"
         android:text="إنشاء حساب"

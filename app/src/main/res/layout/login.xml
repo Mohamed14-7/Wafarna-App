@@ -12,7 +12,8 @@
     <ImageView
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:src="@drawable/login" />
+        android:src="@drawable/login"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:layout_width="match_parent"
@@ -29,12 +30,14 @@
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/border"
-        android:gravity="start"
+        android:gravity="right"
         android:hint="@string/hint_phone"
+        android:textColor="#000"
         android:importantForAccessibility="yes"
         android:inputType="phone"
         android:padding="10dp"
-        android:textColorHint="#A49E9E" />
+        android:textColorHint="#A49E9E"
+        tools:ignore="RtlHardcoded" />
 
     <TextView
         android:layout_width="match_parent"
@@ -52,12 +55,14 @@
         android:layout_marginTop="10dp"
         android:autofillHints="password"
         android:background="@drawable/border"
-        android:gravity="start"
+        android:gravity="right"
         android:hint="@string/pass_hint"
         android:importantForAccessibility="yes"
         android:inputType="textPassword"
         android:padding="10dp"
-        android:textColorHint="#A49E9E" />
+        android:textColor="#000"
+        android:textColorHint="#A49E9E"
+        tools:ignore="RtlHardcoded" />
 
     <Button
         android:id="@+id/loginTo"
@@ -83,7 +88,8 @@
             android:layout_marginEnd="16dp"
             android:text="@string/create_account"
             android:textColor="@android:color/black"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            />
 
         <TextView
             android:id="@+id/forgot_password_text"

@@ -78,28 +78,29 @@
                     android:gravity="center_vertical"
                     android:text="(15)"
                     android:textColor="#FF0000"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="start"
-                    android:gravity="start"
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="315dp"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="مكيفات"
                         android:textColor="#FF0000"
-                        android:textSize="22sp" />
+                        android:textSize="22sp"
+                        tools:ignore="HardcodedText" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="طلبات الانتظار على مكيفات"
                         android:textColor="@color/black"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        tools:ignore="HardcodedText" />
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -127,28 +128,29 @@
                     android:gravity="center_vertical"
                     android:text="(15)"
                     android:textColor="#FF0000"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="start"
-                    android:gravity="start"
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="315dp"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="ثلاجة"
                         android:textColor="#FF0000"
-                        android:textSize="22sp" />
+                        android:textSize="22sp"
+                        tools:ignore="HardcodedText" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="طلبات الانتظار على ثلاجات"
                         android:textColor="@color/black"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        tools:ignore="HardcodedText" />
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -179,14 +181,12 @@
                     android:textSize="20sp" />
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="start"
-                    android:gravity="start"
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="315dp"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="مكاتب"
                         android:textColor="#FF0000"
